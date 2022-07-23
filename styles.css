@@ -104,6 +104,14 @@
     justify-content: center;
     color: rgb(170, 170, 170);
 }
+
+.one {
+    display: flex;
+}
+
+.two {
+    display: flex;
+} 
    
 @media only screen and (max-width: 600px) {
     .navber__menu_container .link {
@@ -123,6 +131,7 @@
     }
 
     .hero__section_input_container {
+        display: flex;
         flex-direction: column;
         background-color: transparent;
         width: 100%;
@@ -142,4 +151,5 @@
     .input_container_location {
         border-right: none;
     }
+
 }
