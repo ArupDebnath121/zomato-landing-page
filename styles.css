@@ -107,10 +107,11 @@
 
 .one {
     display: flex;
+    text-decoration: none;
 }
 
 .two {
-    display: flex;
+    display: flex;text-decoration: none;
 } 
    
 @media only screen and (max-width: 600px) {
